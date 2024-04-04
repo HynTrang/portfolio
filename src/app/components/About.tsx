@@ -11,7 +11,7 @@ export default function About({}: Props) {
         whileInView={{opacity: 1}}
         transition={{duration: 1.5}}
     >
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
+        <h3 className='absolute top-24 xl:translate-x-10 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
         <motion.img
             src="https://picsum.photos/id/237/200/300"
             initial={{
@@ -23,8 +23,8 @@ export default function About({}: Props) {
             transition={{
                 duration: 1.2
             }}
-            className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-            md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+            className='md:mb-0 mt-20 md:mt-0 flex-shrink-0 w-48 h-48 rounded-full object-cover
+            md:rounded-lg md:w-[300px] md:h-[300px] xl:w-[500px] xl:h-[600px]'
         />
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>
